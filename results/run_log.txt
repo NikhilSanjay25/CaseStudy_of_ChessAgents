@@ -1,0 +1,50 @@
+tree figure ...
+{'minimax_nodes': 51, 'alphabeta_nodes': 36, 'value': 120, 'ab_value': 120}
+node-count experiment ...
+  Start position     d=1  minimax        21  ab      21  ab-none       21  ab-worst        21
+  Start position     d=2  minimax       421  ab      84  ab-none       84  ab-worst       193
+  Start position     d=3  minimax     9,323  ab     777  ab-none      778  ab-worst     2,136
+  Start position     d=4  minimax   206,604  ab   3,109  ab-none    3,155  ab-worst    25,534
+  Italian opening    d=1  minimax        32  ab      32  ab-none       32  ab-worst        32
+  Italian opening    d=2  minimax     1,048  ab     127  ab-none      128  ab-worst       966
+  Italian opening    d=3  minimax    32,072  ab   2,447  ab-none    4,160  ab-worst    11,153
+  Italian opening    d=4  minimax 1,040,115  ab   7,372  ab-none   13,879  ab-worst   403,780
+  Middlegame (E1)    d=1  minimax        44  ab      44  ab-none       44  ab-worst        44
+  Middlegame (E1)    d=2  minimax     2,263  ab     140  ab-none      894  ab-worst     2,238
+  Middlegame (E1)    d=3  minimax    93,207  ab   3,900  ab-none   16,107  ab-worst    20,781
+  Middlegame (E1)    d=4  minimax 4,701,529  ab  34,023  ab-none  184,641  ab-worst   764,022
+  Knight fork (W2)   d=1  minimax        13  ab      13  ab-none       13  ab-worst        13
+  Knight fork (W2)   d=2  minimax       164  ab      75  ab-none       74  ab-worst        39
+  Knight fork (W2)   d=3  minimax     1,923  ab     112  ab-none      186  ab-worst       416
+  Knight fork (W2)   d=4  minimax    29,745  ab     222  ab-none      444  ab-worst     1,720
+  Rook endgame       d=1  minimax        20  ab      20  ab-none       20  ab-worst        20
+  Rook endgame       d=2  minimax       358  ab      85  ab-none       71  ab-worst       310
+  Rook endgame       d=3  minimax     6,190  ab     546  ab-none      741  ab-worst     1,768
+  Rook endgame       d=4  minimax   108,368  ab   2,124  ab-none    3,161  ab-worst    11,457
+cases ...
+arena ...
+  [A] Italian         W=minimax:2    B=alphabeta:2  1/2-1/2  threefold_repetition
+  [A] Italian         W=alphabeta:2  B=minimax:2    0-1      checkmate
+  [A] Sicilian        W=minimax:2    B=alphabeta:2  1/2-1/2  threefold_repetition
+  [A] Sicilian        W=alphabeta:2  B=minimax:2    1/2-1/2  threefold_repetition
+  [A] Queen's Gambit  W=minimax:2    B=alphabeta:2  0-1      checkmate
+  [A] Queen's Gambit  W=alphabeta:2  B=minimax:2    0-1      checkmate
+  [A] French          W=minimax:2    B=alphabeta:2  1-0      checkmate
+  [A] French          W=alphabeta:2  B=minimax:2    0-1      checkmate
+  [A] English         W=minimax:2    B=alphabeta:2  0-1      checkmate
+  [A] English         W=alphabeta:2  B=minimax:2    0-1      checkmate
+  [A] Caro-Kann       W=minimax:2    B=alphabeta:2  1-0      checkmate
+  [A] Caro-Kann       W=alphabeta:2  B=minimax:2    1-0      checkmate
+  [B] Italian         W=minimax:2    B=alphabeta:3  1/2-1/2  threefold_repetition
+  [B] Italian         W=alphabeta:3  B=minimax:2    1/2-1/2  threefold_repetition
+  [B] Sicilian        W=minimax:2    B=alphabeta:3  0-1      checkmate
+  [B] Sicilian        W=alphabeta:3  B=minimax:2    1-0      checkmate
+  [B] Queen's Gambit  W=minimax:2    B=alphabeta:3  1/2-1/2  threefold_repetition
+  [B] Queen's Gambit  W=alphabeta:3  B=minimax:2    1-0      checkmate
+  [B] French          W=minimax:2    B=alphabeta:3  1-0      checkmate
+  [B] French          W=alphabeta:3  B=minimax:2    1-0      adjudicated (eval +475)
+  [B] English         W=minimax:2    B=alphabeta:3  1/2-1/2  threefold_repetition
+  [B] English         W=alphabeta:3  B=minimax:2    1-0      checkmate
+  [B] Caro-Kann       W=minimax:2    B=alphabeta:3  0-1      checkmate
+  [B] Caro-Kann       W=alphabeta:3  B=minimax:2    1/2-1/2  threefold_repetition
+done
